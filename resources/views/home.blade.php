@@ -3,5 +3,5 @@
 @section('title', 'HomePage')
 
 @section('content')
- IO SONO CONTENUTO  {{$dato}}
+ IO SONO CONTENUTO 
 @endsection
