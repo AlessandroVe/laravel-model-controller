@@ -11,7 +11,6 @@ class ControllerHome extends Controller
     public function index(){
          
         $all_Movies = movie::all();
-        dump($all_Movies);
-        return view('home');
+        return view('home', compact('all_Movies'));
     }
 }
